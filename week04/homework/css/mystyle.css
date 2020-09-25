@@ -6,6 +6,14 @@ body {
     background-color: #023036 !important;
 }
 
+.text-secondary {
+    color: #cd5334 !important;
+}
+
+.text-info {
+    color: #EDB88B !important;
+}
+
 .card {
 	padding:0;
 	margin: 1rem auto;
@@ -15,3 +23,6 @@ body {
 .row-cols-md-2 > * {
 	flex: 0 0 46%;
 }
+
+a.text-info:focus, a.text-info:hover {
+    color: #cd5334 !important;
