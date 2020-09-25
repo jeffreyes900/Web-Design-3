@@ -1,0 +1,17 @@
+body {
+	background-color: black;
+}
+
+.bg-dark {
+    background-color: #023036 !important;
+}
+
+.card {
+	padding:0;
+	margin: 1rem auto;
+	border: 1px solid rgba(23, 190, 187, 1);
+}
+
+.row-cols-md-2 > * {
+	flex: 0 0 46%;
+}
