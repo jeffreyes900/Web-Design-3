@@ -1,0 +1,24 @@
+body {
+	padding-top: 60px;
+}
+
+
+.carousel-image {
+        background-position: center;
+        background-size: cover;
+        height: 600px;
+    }
+
+.alert {
+	margin-bottom: 0px;
+}
+
+/*jumbotron*/
+section.jumbotron {
+	background-size: cover;
+	background-position: center;
+}
+
+.bg-transparent {
+    background-color: rgba(20,20,20,0.4) !important;
+}
