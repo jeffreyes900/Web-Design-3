@@ -12,17 +12,11 @@
 </head>
 
 <body>
-    <!-- Alert -->
-    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-        A simple danger alert—check it out!
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">×</span>
-        </button>
-    </div>
+    
 
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-            <a class="navbar-brand" href="#"><img src="..." alt="our logo"></a>
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="our logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -32,7 +26,7 @@
                         <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/products.html">Products</a>
+                        <a class="nav-link" href="pages/team.html">Team</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="pages/about.html">About</a>
@@ -43,6 +37,15 @@
                 </ul>
             </div>
         </nav>
+
+        <!-- Alert -->
+        <div class="alert alert-danger alert-dismissible fade show mt-5" role="alert">
+            <p>Due to the coronavirus pandemic, Troika Systems will no longer be joining the annual Worldwide Spectroscopy Consortium</p>
+            <a href="#">Learn more</a>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">×</span>
+            </button>
+        </div>
     </header>
     <main>
       <div id="carouselExampleCaptions" class="carousel slide">
@@ -53,24 +56,26 @@
             </ol>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <div style="background-image: url(https://i1.wp.com/bestlifeonline.com/wp-content/uploads/2019/07/what-is-quokka.jpg);" class="w-100 carousel-image"></div>
+                    <div style="background-image: url(img/carousel1.jpg);" class="w-100 carousel-image"></div>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <div class="text-dark"><h5>Troika Systems</h5>
+                        <p>Pioneering in the advancement of science, engineering, and national defense</p></div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div style="background-image: url(https://www.australia.com/content/dam/assets/photograph/digital/1/7/5/v/g/2013820.jpg.adapt.740.medium.jpg);" class="w-100 carousel-image"></div>
+                    <div style="background-image: url(img/carousel2.jpg);" class="w-100 carousel-image"></div>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <div class="">
+                          <h5>You Define What's Possible</h5>
+                          <a class="text-white" href="#">Learn about exciting careers within our company</a>
+                        </div>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <div style="background-image: url(https://www.outlookindia.com/outlooktraveller/resizer.php?src=https://www.outlookindia.com/outlooktraveller/public/uploads/articles/explore/shutterstock_702589243.jpg&w=500&h=400);" class="w-100 carousel-image"></div>
+                    <div style="background-image: url(img/carousel3.jpg);" class="w-100 carousel-image"></div>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h5>Protecting Our Nation's Interests</h5>
+                        <p>Our Nation relies on our tech to be ever-vigilant and work without fail</p>
                     </div>
                 </div>
             </div>
@@ -96,41 +101,43 @@
             <hr class="featurette-divider my-5">
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="display-4 featurette-heading mb-5">First featurette heading. <span class="text-muted">It’ll blow your mind.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="display-4 featurette-heading mb-5">Defining the Future <span class="text-muted">And Achieving New Milestones</span></h2>
+                    <p class="lead">Here at Troika, every day we are discovering and implementing new technologies that set the stage for what tomorrow will look like. <a class="text-primary" href="#">Find out how we recently entered the forefront of radiospectroscopy</a></p>
                 </div>
                 <div class="col-md-5">
                     <picture>
-                      <source srcset="" media="(min-width: 960px">
-                      <source srcset="img/sunflower500.jpg" media="(min-width: 768px)">
-                      <img src="img/sunflower380.jpg" alt="" class="img-fluid">
+                      <source srcset="img/laser.jpg" media="(min-width: 960px">
+                      <source srcset="img/laser-md.jpg" media="(min-width: 768px)">
+                      <img src="img/laser-sm.jpg" alt="" class="img-fluid">
                     </picture>
                 </div>
             </div>
             <hr class="featurette-divider my-5">
             <div class="row featurette">
                 <div class="col-md-7 order-md-2">
-                    <h2 class="display-4 featurette-heading mb-5">Oh yeah, it’s that good. <span class="text-muted">See for yourself.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="display-4 featurette-heading mb-5">We Need the Best <span class="text-muted">and Brightest.</span></h2>
+                    <p class="lead">In order to ensure that we can keep our edge against the competition at home or abroad, we cultivate talent through numerous scholarships for high school and university students, as well as creating agreements with schools for internship opportunities.</p>
                 </div>
                 <div class="col-md-5 order-md-1">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-                    </svg>
+                    <picture>
+                      <source srcset="img/Global-STEM.jpg" media="(min-width: 960px">
+                      <source srcset="img/Global-STEM-md.jpg" media="(min-width: 768px)">
+                      <img src="img/Global-STEM-sm.jpg" alt="" class="img-fluid">
+                    </picture>
                 </div>
             </div>
             <hr class="featurette-divider my-5">
             <div class="row featurette">
                 <div class="col-md-7">
-                    <h2 class="display-4 featurette-heading mb-5">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-                    <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+                    <h2 class="display-4 featurette-heading mb-5">International Partnership <span class="text-muted">and Collaboration</span></h2>
+                    <p class="lead">We need to be able to collaborate with our allies in order to be stronger together. That's why Troika conducts collaborating projects with firms all around the world to build upon one another's advancements.</p>
                 </div>
                 <div class="col-md-5">
-                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text>
-                    </svg>
+                    <picture>
+                      <source srcset="img/poland.jpg" media="(min-width: 960px">
+                      <source srcset="img/poland-md.jpg" media="(min-width: 768px)">
+                      <img src="img/poland-sm.jpg" alt="" class="img-fluid">
+                    </picture>
                 </div>
             </div>
             <hr class="featurette-divider my-5">
