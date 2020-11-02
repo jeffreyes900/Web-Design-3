@@ -28,6 +28,45 @@
         	#gradient4{
         		background-image: repeating-linear-gradient(to bottom right, rgb(221,82,123), rgb(100,74,214) 10%, rgb(57,186,209) 20%, rgb(221,82,123) 30%);
         	}
+
+        	#gradient5{
+        		background-image: 
+        		radial-gradient(rgb(221,82,123), rgb(100,74,214));
+        	}
+
+        	#gradient6{
+        		background-image: 
+        		radial-gradient(circle farthest-side at 60%, rgb(240,228,62), rgb(96,212,241));
+        	}
+
+        	#gradient6{
+        		background-image: 
+        		linear-gradient(to right, hsl(30, 80%, 50%), hsl(150, 80%, 50%), hsl(270, 80%, 50%));
+        	}
+
+        	section {
+        		position: relative;
+        	}
+
+        	.overlay {
+        		position: absolute;
+        		width: 100%;
+        		height: 100%;
+        		top: 0;
+        		left: 0;
+        		background-color: hsla(210, 60%, 60%, 0.6); 
+        	}
+
+        	section img {
+        		width: 100%;
+
+        	}
+
+        	section h1 {
+        		position: absolute;
+        		top: 200px;
+        		left: 30px;
+        	}
         </style>
     </head>
     <body>
@@ -37,5 +76,13 @@
     	<div class="gradient" id="gradient2"></div>
     	<div class="gradient" id="gradient3"></div>
     	<div class="gradient" id="gradient4"></div>
+    	<div class="gradient" id="gradient5"></div>
+    	<div class="gradient" id="gradient6"></div>
+    	<div class="gradient" id="gradient7"></div>
+    	<section>
+    		<img src="clouds-blue-sky-background.jpg" alt="jumbotron bg">
+    		<div class="overlay"></div>
+    		<h1>The sky is beautiful today</h1>
+    	</section>
     </body>
 </html>
