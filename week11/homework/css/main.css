@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+canvas {
+    border: 1px solid black;
+    margin: 50px;
+}
+
+.counter {
+	width: 80px;
+	height: 60px;
+	border: 2px solid black;
+}
