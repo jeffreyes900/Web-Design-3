@@ -1,13 +1,44 @@
 body {
     margin: 0;
+    text-align: center;
 }
+
 canvas {
-    border: 1px solid black;
-    margin: 50px;
+    border: 1px solid #ff6000;
+    margin: 50px auto;
+    background-image: url(../img/dart.jpg);
+}
+
+.highlight {
+    color: #ff6000;
+}
+
+button {
+    text-align: center;
 }
 
 .counter {
-	width: 80px;
-	height: 60px;
-	border: 2px solid black;
+    width: 80px;
+    height: 60px;
+    border: 2px solid white;
+}
+
+.colorPicker {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    border: 1px solid black;
+}
+
+.red {
+    background-color: red;
+}
+
+.teal {
+    background-color: teal;
+}
+
+.white {
+    background-color: white;
+
 }
