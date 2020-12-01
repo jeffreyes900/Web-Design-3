@@ -1,0 +1,34 @@
+body {
+	background-color: black;
+}
+
+.bg-dark {
+    background-color: #011517 !important;
+}
+
+.text-secondary {
+    color: #cd5334 !important;
+}
+
+.text-info {
+    color: #EDB88B !important;
+}
+
+.text-danger {
+	color: #17BEBB !important; 
+}
+
+.card {
+	padding:0;
+	margin: 1rem auto;
+	border: 1px solid rgba(23, 190, 187, 1);
+}
+
+/*.row-cols-md-2 > * {
+	flex: 0 0 46%;
+}*/
+
+
+
+a.text-info:focus, a.text-info:hover {
+    color: #cd5334 !important;
