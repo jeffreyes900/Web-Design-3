@@ -5,48 +5,44 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
-
     <title>Final</title>
-
 </head>
-
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
         <a class="navbar-brand" href="#">Build a PC</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Shop
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Specials</a>
+                        <a class="dropdown-item" href="pages/shop.html">Specials</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Ready to Ship</a>
+                        <a class="dropdown-item" href="pages/shop.html#ready2ship">Ready to Ship</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Custom Builds</a>
+                        <a class="dropdown-item" href="pages/shop.html#customBuilds">Custom Builds</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Accessories</a>
+                        <a class="dropdown-item" href="pages/shop.html#accessories">Accessories</a>
                     </div>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">FAQ<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Info
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="pages/info.html">FAQ</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="pages/info.html#contact">Contact</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="pages/info.html#blog">Blog</a>
+                    </div>
                 </li>
             </ul>
             <form class="form-inline my-2 my-lg-0">
@@ -58,8 +54,7 @@
 </header>
 
 <body>
-
-<!-- START CAROUSEL -->
+    <!-- START CAROUSEL -->
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -68,13 +63,25 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="https://via.placeholder.com/1920x580" class="d-block w-100" alt="...">
+                <picture>
+                    <source srcset="img/landing-carousel1-lg.jpg" media="(min-width: 960px">
+                    <source srcset="https://via.placeholder.com/768x500" media="(min-width: 768px)">
+                    <img src="https://via.placeholder.com/360" alt="" class="img-fluid w-100">
+                </picture>
             </div>
             <div class="carousel-item">
-                <img src="https://via.placeholder.com/1920x580" class="d-block w-100" alt="...">
+                <picture>
+                    <source srcset="img/landing-carousel2-lg.jpg" media="(min-width: 960px">
+                    <source srcset="https://via.placeholder.com/768x500" media="(min-width: 768px)">
+                    <img src="https://via.placeholder.com/360" alt="" class="img-fluid w-100">
+                </picture>
             </div>
             <div class="carousel-item">
-                <img src="https://via.placeholder.com/1920x580" class="d-block w-100" alt="...">
+                <picture>
+                    <source srcset="img/landing-carousel3-lg.jpg" media="(min-width: 960px">
+                    <source srcset="https://via.placeholder.com/768x500" media="(min-width: 768px)">
+                    <img src="https://via.placeholder.com/360" alt="" class="img-fluid w-100">
+                </picture>
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -86,10 +93,8 @@
             <span class="sr-only">Next</span>
         </a>
     </div>
-<!-- END OF CAROUSEL -->
-
-
-<!-- START THE FEATURETTES -->
+    <!-- END OF CAROUSEL -->
+    <!-- START THE FEATURETTES -->
     <div class="container">
         <div class="row featurette">
             <div class="col-md-7">
@@ -98,9 +103,9 @@
             </div>
             <div class="col-md-5">
                 <picture>
-                    <source srcset="https://via.placeholder.com/500" media="(min-width: 960px">
+                    <source srcset="img/landing-featurette1-lg.jpg" media="(min-width: 960px">
                     <source srcset="https://via.placeholder.com/400" media="(min-width: 768px)">
-                    <img src="https://via.placeholder.com/330" alt="" class="img-fluid">
+                    <img src="https://via.placeholder.com/360" alt="" class="img-fluid">
                 </picture>
             </div>
         </div>
@@ -112,9 +117,9 @@
             </div>
             <div class="col-md-5">
                 <picture>
-                    <source srcset="https://via.placeholder.com/500" media="(min-width: 960px">
+                    <source srcset="img/landing-featurette2-lg.jpg" media="(min-width: 960px">
                     <source srcset="https://via.placeholder.com/400" media="(min-width: 768px)">
-                    <img src="https://via.placeholder.com/330" alt="" class="img-fluid">
+                    <img src="https://via.placeholder.com/360" alt="" class="img-fluid">
                 </picture>
             </div>
         </div>
@@ -126,9 +131,9 @@
             </div>
             <div class="col-md-5">
                 <picture>
-                    <source srcset="https://via.placeholder.com/500" media="(min-width: 960px">
+                    <source srcset="img/landing-featurette3-lg.jpeg" media="(min-width: 960px">
                     <source srcset="https://via.placeholder.com/400" media="(min-width: 768px)">
-                    <img src="https://via.placeholder.com/330" alt="" class="img-fluid">
+                    <img src="https://via.placeholder.com/360" alt="" class="img-fluid">
                 </picture>
             </div>
         </div>
@@ -142,16 +147,54 @@
                 <picture>
                     <source srcset="https://via.placeholder.com/500" media="(min-width: 960px">
                     <source srcset="https://via.placeholder.com/400" media="(min-width: 768px)">
-                    <img src="https://via.placeholder.com/330" alt="" class="img-fluid">
+                    <img src="https://via.placeholder.com/360" alt="" class="img-fluid">
                 </picture>
             </div>
         </div>
     </div>
-<!-- /END THE FEATURETTES -->
+    <!-- /END THE FEATURETTES -->
+    <section id="accessories" class="bg-dark py-5">
+    <div class="container">
+        <div class="row justify-content-md-center text-light">
+            <div class="col-md-4 text-center p-3 p-lg-5 border-right border-light">
+                <div class="">
+                    <i class="fas fa-hand-holding-usd text-primary" style="font-size: 65px;"></i>
+                    <h3 class="text-light mt-3 text-uppercase">Financing</h3>
+                    <h4 class="text-light">Play Now and Pay Later</h4>
+                    <ul class="text-left">
+                        <li>Easy to Apply</li>
+                        <li>Get Instant Pre-Approved Offers and Rates</li>
+                        <li><strong>0% APR</strong> on Select Purchases*</li>
+                        <li>No Prepayment Penalties</li>
+                        <li>Up to 36 Months of Payment Options</li>
+                    </ul>
+                    <a href="/landing/financing/" class="btn btn-flat primary btn-lg shadow-none waves-light waves-effect waves-effect">Learn More</a>
+                </div>
+            </div>
+            <div class="col-md-4 text-center p-3 p-lg-5 border-right border-light">
+                <div class="">
+                    <i class="fas fa-handshake text-primary" style="font-size: 65px;"></i>
+                    <h3 class="text-light mt-3 text-uppercase">Affiliates</h3>
+                    <h4 class="text-light">Join the Best</h4>
+                    <p>Partner up with the best custom PC system builder in the world and earn extra cash! Become An Official ORIGIN PC Affiliate Today!</p>
+                    <a href="/affiliates/register/" class="btn btn-flat primary btn-lg shadow-none waves-light waves-effect waves-effect">Join</a>
+                </div>
+            </div>
+            <div class="col-md-4 text-center p-3 p-lg-5">
+                <div class="">
+                    <i class="fas fa-headset text-primary" style="font-size: 65px;"></i>
+                    <h3 class="text-light mt-3 text-uppercase">Support</h3>
+                    <h4 class="text-light">24/7 US Based Support</h4>
+                    <p>Once you join us, we will have you covered. With every system, ORIGIN PC provides a free phone and online lifetime service guarantee.</p>
+                    <a href="/support/" class="btn btn-flat primary btn-lg shadow-none waves-light waves-effect waves-effect">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 
     <div class="container">
         <div class="row text-secondary h3 my-4" style="text-align: center;">
-
             <div class="col-lg-9">
             </div>
             <div class="col-4 col-lg px-lg-1">
@@ -172,23 +215,14 @@
             <div class="col-4 col-lg px-lg-1">
                 <i class="fab fa-cc-amex"></i>
             </div>
-            
         </div>
     </div>
-
-
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous">
     </script>
     <script src="https://kit.fontawesome.com/a3777be75c.js" crossorigin="anonymous"></script>
-
 </body>
 
 </html>
